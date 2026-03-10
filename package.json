@@ -1,0 +1,16 @@
+{
+  "name": "claude-dashboard-proxy",
+  "version": "1.0.0",
+  "description": "Secure proxy server for Claude Admin Dashboard",
+  "main": "proxy.js",
+  "scripts": {
+    "start": "node proxy.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
